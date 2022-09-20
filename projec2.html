@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/c7eccb8a8e.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0%;
+            padding: 0%;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            flex-direction: column;
+        }
+        header{
+            align-items: center;
+            display: flex;
+            background-color: rgb(123, 113, 4);
+            padding: 15px;
+        }
+        header ul{
+            display: flex;
+            list-style: none;
+            margin: 0;
+        }
+        header a{
+            color: #e6e6e6;
+        }
+        .class1 li{
+            padding: 10px;
+            
+        }
+        #social-links li{
+            padding: 10px;
+            margin: 0px;
+        }
+        a{
+            text-decoration: none;
+        }
+        
+        #logo{
+            font-size: 30px;
+            margin: 0 auto;
+        }
+        #main{
+            display: flex;
+            
+        }
+        article{
+            padding: 10px;
+        }
+        aside{
+            background-color: rgb(244, 237, 194);
+            flex: 0 0 20vw;
+            padding: 10px;
+            
+        }
+        aside ul{
+            list-style: none;
+            padding: 0;
+            
+        }
+        aside ul li{
+            padding: 10px;
+        }
+        aside ul a{
+            
+            border-bottom: 1px solid rgb(123, 113, 4);
+            padding: 10px;
+            display: block;
+            color:rgb(163 170 68) ;
+        }
+        aside img{
+            width: 100%;
+        }
+       
+        #service-container{
+            display: flex;
+            justify-content: space-between;
+        }
+        .container{
+            border: 1px solid rgb(234, 223, 223);
+            flex-basis: 33%;
+            max-width: 370px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        .container img{
+            width: 100%;
+            height: 100%;
+        }
+        footer{
+            background-color: rgb(123, 113, 4);
+            color: #e6e6e6;
+            text-align: center;
+            padding: 15px;
+        }
+        .class6{
+            align-self: flex-start;
+            margin-top: auto;
+        }
+        .class6 a{
+            background-color: gray;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+        }
+
+        a:hover{
+            color: rgb(184, 158, 202);
+        }
+
+       
+    </style>
+      
+</head>
+<body>
+        <header>
+            <nav class="navbar">
+                
+                <ul class="class1">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div id="logo"><a href="#">Software House</a></div>
+            <div id="social-links">
+                <ul>
+                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                </ul>
+            </div>
+        </header>
+        <div id="main">
+            <aside>
+                <ul>
+                    <li><a href="">Some links</a></li>
+                    <li><a href="">Some links</a></li>
+                    <li><a href="">Some links</a></li>
+                    <li><a href="">Some links</a></li>
+                    <li><a href="">Some links</a></li>
+                </ul>
+                <img src="side.jpg" alt="">
+            </aside>
+            <article class="class2">
+                <h2>Welcome To Our Website</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium quisquam autem obcaecati labore modi! Dignissimos, doloremque illum iusto numquam esse odit, rerum voluptatum autem a quas exercitationem nobis dolor corporis temporibus architecto! Esse exercitationem, dicta rerum nesciunt quae ratione vero eveniet suscipit repellendus blanditiis tempore hic veritatis. Repellat dolorum commodi, doloremque, fuga quasi aliquid, ea repellendus ut aut a ducimus repudiandae beatae alias modi. Ex perferendis, rerum ipsa doloribus numquam dignissimos sed aliquam accusamus. Earum repellendus, ducimus quod cupiditate eos cum? Molestias sapiente veniam molestiae similique, error, qui fugiat nostrum corrupti reprehenderit eos iure quisquam vero dolores quo. Itaque, culpa!</p>
+                <h2>Our Services</h2>
+
+                <div id="service-container">
+                    <div class="container">
+                        <div class="class3">
+                            <img src="webdi.jpg" alt="">
+                        </div>
+                        <div class="class4">
+                            <h3>Web Designing</h3>
+                        </div>
+                        <div class="class5">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni voluptates voluptatem repudiandae. Consequuntur, ut repellat.</p>
+                        </div>
+                        <div class="class6">
+                            <a href="">Read more</a>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="class3">
+                            <img src="webd.jpg" alt="">
+                        </div>
+                        <div class="class4">
+                            <h3>Web Development</h3>
+                        </div>
+                        <div class="class5">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni voluptates voluptatem repudiandae. Consequuntur, ut repellat.</p>
+                        </div>
+                        <div class="class6">
+                            <a href="">Read more</a>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="class3">
+                            <img src="mob.jpg" alt="">
+                        </div>
+                        <div class="class4">
+                            <h3>Mobile App Development</h3>
+                        </div>
+                        <div class="class5">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni voluptates voluptatem repudiandae. Consequuntur, ut repellat.</p>
+                        </div>
+                        <div class="class6">
+                            <a href="">Read more</a>
+                        </div>
+                    </div>
+                </div>
+               
+            </article>
+        </div>
+        <footer>Software House</footer>
+</body>
+</html>
